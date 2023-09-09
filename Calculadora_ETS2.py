@@ -11,3 +11,4 @@ tiempo_de_juego = minutos_horas + minutos
 tiempo_estimado = tiempo_de_juego / tiempo_real
 
 print(f"Tu entrega tiene una demora aproximada de {tiempo_estimado} minutos en la vida real")
+print("Gracias")
