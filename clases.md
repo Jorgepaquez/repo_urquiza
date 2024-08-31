@@ -21,5 +21,5 @@ classDiagram
         +agregarGenero(Genero genero)
     }
 
-    Duracion "1" -- "contiene" Pelicula
-    Duracion "1" -- "registra" Genero
+    Pelicula --> Genero : "asociado con"
+    Pelicula --> Duracion : "dura"
